@@ -1,4 +1,4 @@
 # JSConcepts
 
 
-## This project contains couple of commonly used javascript concepts understandings for brush up :)
+## This project contains couple of commonly and uncommonly used javascript concept understandings :)
