@@ -4,7 +4,7 @@
 let firstObject ={
 fn:"William",
 ln:"Abignale",
-printNm: function(){
+printFullName: function(){
 console.log(this.fn+this.ln)}
 }
 
@@ -14,7 +14,7 @@ fn:"Akshay",
 ln:"Kumar",
 }
 
-firstObject.printNm.call(borrower)
+firstObject.printFullName.call(borrower)
 
 
 //Adding parameter other than this named objects
@@ -35,4 +35,5 @@ printWithHomeTown.apply(borrower,['applycity'])
 //Bind method doesnt direcctly calls the method instead return a function itself
 //so we need to store it in a variable
 let bindFunc = printWithHomeTown.bind(borrower,['applycity']);
+//After bind, call the function normally
 bindFunc();
