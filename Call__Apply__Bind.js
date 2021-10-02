@@ -1,9 +1,9 @@
 
 			//Call and apply method
 
-let myObj ={
-fn:"Nishant",
-ln:"Salode",
+let firstObject ={
+fn:"William",
+ln:"Abignale",
 printNm: function(){
 console.log(this.fn+this.ln)}
 }
@@ -14,7 +14,7 @@ fn:"Akshay",
 ln:"Kumar",
 }
 
-myObj.printNm.call(borrower)
+firstObject.printNm.call(borrower)
 
 
 //Adding parameter other than this named objects
