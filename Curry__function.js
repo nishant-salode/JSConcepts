@@ -22,11 +22,10 @@ multiplyBy11(5); //Your second param Num2 will be 5
 
 */
 
-let sum = (a) =>{
-  return (b)=>{
-    return a*b
-  }
+//normal sweet function of adding two numbers :)
+let sum = (a,b) =>{
+  return (a + b);
 }
 
-let add900 = sum.bind(this,900);
-add900(1);
+let add900 = sum.bind(this,900); //Bind returns a new function of sum which has it's first param set to 900
+add900(10); // calls the new function while passing the second parameter;
